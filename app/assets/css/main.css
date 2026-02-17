@@ -1,0 +1,66 @@
+/* ============================================
+   Fonts
+   ============================================ */
+@font-face {
+  font-family: 'JosefinSans';
+  src: local('JosefinSans'), url('~/assets/fonts/JosefinSans.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EduSABeginner';
+  src: local('EduSABeginner'), url('~/assets/fonts/EduSABeginner.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* ============================================
+   CSS Variables
+   ============================================ */
+:root {
+  --font-primary: 'JosefinSans', Helvetica, Arial, sans-serif;
+  --font-handwriting: 'EduSABeginner', cursive;
+}
+
+/* ============================================
+   Reset & Base
+   ============================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
