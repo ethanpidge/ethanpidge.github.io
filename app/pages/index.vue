@@ -60,12 +60,14 @@ const freelanceProjects: FreelanceProject[] = [
     description: 'Business website for a civil engineering & construction company based in Devon. Features service pages for tarmac/resin driveways, dropped kerbs, S38/S278/S104 works, and more.',
     tags: ['Nuxt.js', 'Vue 3', 'In Development'],
     url: 'https://dbcivil.co.uk/',
+    image: '/img/dbcivils_website.png',
   },
   {
     name: 'A.R.A Artistry (In development)',
     description: "Portfolio site for a TV & Film Hair, Makeup and SFX Artist. Credits on productions including Netflix's The Witcher, BBC's Beyond Paradise.",
     tags: ['Nuxt.js', 'Vue 3', 'In Development'],
     url: 'https://ameliarubyalice.pages.dev/',
+    image: '/img/ara_website.png',
   },
 ]
 
@@ -75,24 +77,28 @@ const portalProjects: PortalProject[] = [
     type: 'WiFi Portal Experience',
     description: 'Guest WiFi captive portal deployed across 400+ nationwide retail stores, delivering seamless customer onboarding with data capture and marketing integration.',
     tags: ['PHP', 'Responsive', 'Nginx', 'Bootstrap'],
+    image: '/img/wilko.webp',
   },
   {
     name: 'The Royal Collection Trust',
     type: 'WiFi Portal Experience',
     description: 'Guest WiFi captive portal for royal heritage sites including Buckingham Palace, providing visitors with elegant branded connectivity.',
     tags: ['PHP', 'Responsive', 'Nginx', 'Bootstrap'],
+    image: '/img/rct.webp',
   },
   {
     name: 'Chiltern Railways',
     type: 'WiFi Portal Experience',
     description: 'Guest WiFi captive portal for train stations across the network, enabling quick passenger connectivity with branded authentication.',
     tags: ['PHP', 'Responsive', 'Nginx', 'Bootstrap'],
+    image: '/img/chiltern.webp',
   },
   {
     name: 'The Celtic Collection',
     type: 'WiFi Portal Experience',
     description: "Guest WiFi captive portal serving Wales' premier luxury hospitality group — spanning Celtic Manor Resort (home of the 2010 Ryder Cup), Tŷ Hotels, ICC Wales and venues across Newport, Cardiff and Pembrokeshire.",
     tags: ['PHP', 'Responsive', 'Nginx', 'Bootstrap'],
+    image: '/img/ty_newport.png',
   },
 ]
 

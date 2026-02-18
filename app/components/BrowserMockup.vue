@@ -2,7 +2,8 @@
   <div class="mockup">
     <div class="mockup__bar"><span /><span /><span /></div>
     <div class="mockup__body">
-      <slot>
+      <img v-if="image" :src="image" :alt="alt" class="mockup__image" />
+      <slot v-else>
         <div class="mockup__placeholder">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
@@ -15,6 +16,15 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+withDefaults(defineProps<{
+  image?: string
+  alt?: string
+}>(), {
+  alt: 'Project screenshot'
+})
+</script>
 
 <style scoped>
 .mockup {
@@ -41,7 +51,13 @@
 }
 
 .mockup__body {
-  padding: 1.25rem 1rem;
+  padding: 0;
+}
+
+.mockup__image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .mockup__placeholder {
@@ -50,7 +66,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 1rem 0;
+  padding: 2rem 1rem;
   color: rgba(38, 70, 83, 0.25);
 }
 

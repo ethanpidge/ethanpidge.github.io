@@ -22,7 +22,7 @@ const currentYear = new Date().getFullYear()
 }
 
 .site-footer__heading {
-  font-family: var(--font-handwriting, 'EduSABeginner', cursive);
+  font-family: var(--font-primary, 'JosefinSans', sans-serif);
   font-size: clamp(2rem, 5vw, 3.5rem);
   margin-bottom: 2rem;
 }

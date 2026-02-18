@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="project__mockup">
-      <BrowserMockup />
+      <BrowserMockup :image="project.image" />
     </div>
   </div>
 </template>
@@ -20,6 +20,7 @@ export interface PortalProject {
   type: string
   description: string
   tags: string[]
+  image?: string
 }
 
 defineProps<{
@@ -71,10 +72,6 @@ defineProps<{
   transition: letter-spacing 0.3s;
 }
 
-.project:hover .project__name {
-  letter-spacing: 0.02em;
-}
-
 .project__desc {
   font-size: 0.95rem;
   line-height: 1.6;
@@ -108,8 +105,13 @@ defineProps<{
 }
 
 @media (max-width: 500px) {
+  .project {
+    flex-direction: column;
+  }
+
   .project__mockup {
-    display: none;
+    width: 100%;
+    order: -1;
   }
 }
 </style>

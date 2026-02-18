@@ -6,7 +6,7 @@
     class="project-card reveal"
   >
     <div class="project-card__mockup">
-      <BrowserMockup />
+      <BrowserMockup :image="project.image" />
     </div>
     <h4 class="project-card__name">{{ project.name }}</h4>
     <p class="project-card__desc">{{ project.description }}</p>
@@ -22,6 +22,7 @@ export interface FreelanceProject {
   description: string
   tags: string[]
   url: string
+  image?: string
 }
 
 defineProps<{

@@ -13,7 +13,7 @@
       <h2 class="hero__typewriter">
         <span class="hero__typed">{{ displayText }}<span class="hero__cursor">|</span></span>
       </h2>
-      <p class="hero__sub">Building performant web experiences for 7+ years</p>
+      <p class="hero__sub">Building performant web experiences for 8+ years</p>
       <div class="hero__links">
         <a href="https://github.com/ethanpidge" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="mailto:ethanpidge@gmail.com">Email</a>
