@@ -4,7 +4,7 @@
       <h2 class="about__heading reveal">About</h2>
       <div class="about__text reveal">
         <p>
-          I'm a front-end developer based in Devon with over seven years of experience building for the web.
+          I'm a front-end developer based in Devon with over eight years of experience building for the web.
           I joined <strong>SparkTSL</strong> straight out of college as an apprentice and never looked back
           — working my way up from handling support tickets and designing UI mockups to leading front-end
           builds for clients such as <strong>Starbucks</strong>, <strong>Wilko</strong>,
