@@ -80,6 +80,13 @@ const portalProjects: PortalProject[] = [
     image: '/img/wilko.webp',
   },
   {
+    name: 'Starbucks',
+    type: 'WiFi Portal Experience',
+    description: 'Guest WiFi captive portal deployed internationally across Starbucks locations, including their Milan stores. Clean, branded authentication experience for coffeehouse customers.',
+    tags: ['PHP', 'Responsive', 'Nginx', 'Bootstrap'],
+    image: '/img/starbucks.webp',
+  },
+  {
     name: 'The Royal Collection Trust',
     type: 'WiFi Portal Experience',
     description: 'Guest WiFi captive portal for royal heritage sites including Buckingham Palace, providing visitors with elegant branded connectivity.',
