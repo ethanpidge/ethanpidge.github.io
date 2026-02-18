@@ -2,7 +2,7 @@
   <div class="mockup">
     <div class="mockup__bar"><span /><span /><span /></div>
     <div class="mockup__body">
-      <img v-if="image" :src="image" :alt="alt" class="mockup__image" />
+      <img v-if="image" :src="image" :alt="alt" class="mockup__image" loading="lazy" />
       <slot v-else>
         <div class="mockup__placeholder">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">

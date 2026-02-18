@@ -3,13 +3,17 @@
    ============================================ */
 @font-face {
   font-family: 'JosefinSans';
-  src: local('JosefinSans'), url('~/assets/fonts/JosefinSans.ttf') format('truetype');
+  src: local('JosefinSans'),
+       url('~/assets/fonts/JosefinSans.woff2') format('woff2'),
+       url('~/assets/fonts/JosefinSans.ttf') format('truetype');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'EduSABeginner';
-  src: local('EduSABeginner'), url('~/assets/fonts/EduSABeginner.ttf') format('truetype');
+  src: local('EduSABeginner'),
+       url('~/assets/fonts/EduSABeginner.woff2') format('woff2'),
+       url('~/assets/fonts/EduSABeginner.ttf') format('truetype');
   font-display: swap;
 }
 

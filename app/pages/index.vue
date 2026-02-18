@@ -60,14 +60,14 @@ const freelanceProjects: FreelanceProject[] = [
     description: 'Business website for a civil engineering & construction company based in Devon. Features service pages for tarmac/resin driveways, dropped kerbs, S38/S278/S104 works, and more.',
     tags: ['Nuxt.js', 'Vue 3', 'In Development'],
     url: 'https://dbcivil.co.uk/',
-    image: '/img/dbcivils_website.png',
+    image: '/img/dbcivils_website.webp',
   },
   {
     name: 'A.R.A Artistry (In development)',
     description: "Portfolio site for a TV & Film Hair, Makeup and SFX Artist. Credits on productions including Netflix's The Witcher, BBC's Beyond Paradise.",
     tags: ['Nuxt.js', 'Vue 3', 'In Development'],
     url: 'https://ameliarubyalice.pages.dev/',
-    image: '/img/ara_website.png',
+    image: '/img/ara_website.webp',
   },
 ]
 
@@ -98,7 +98,7 @@ const portalProjects: PortalProject[] = [
     type: 'WiFi Portal Experience',
     description: "Guest WiFi captive portal serving Wales' premier luxury hospitality group — spanning Celtic Manor Resort (home of the 2010 Ryder Cup), Tŷ Hotels, ICC Wales and venues across Newport, Cardiff and Pembrokeshire.",
     tags: ['PHP', 'Responsive', 'Nginx', 'Bootstrap'],
-    image: '/img/ty_newport.png',
+    image: '/img/ty_newport.webp',
   },
 ]
 

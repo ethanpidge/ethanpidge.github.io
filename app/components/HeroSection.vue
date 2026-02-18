@@ -4,9 +4,10 @@
     <div class="hero__content">
       <div class="hero__sticker">
         <img 
-          src="/img/hello-sticker.png" 
+          src="/img/hello-sticker.webp" 
           alt="Hello my name is sticker" 
-          class="hero__sticker-img" 
+          class="hero__sticker-img"
+          fetchpriority="high"
         />
         <span class="hero__sticker-name">Ethan Pidgeon</span>
       </div>
