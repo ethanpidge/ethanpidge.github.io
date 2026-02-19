@@ -9,9 +9,11 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  skills: string[]
-}>()
+const skills = [
+  'HTML', 'CSS/SASS', 'JavaScript', 'Vue.js', 'Nuxt.js', 'jQuery', 'Tailwind CSS', 'Bootstrap', 'Blazor (C#)',
+  'PHP', 'CodeIgniter', 'Symfony', 'MySQL', 'REST APIs', 'Git', 'Linux/CLI', 'AWS', 'npm/pnpm', 'Composer',
+  'Jest/Jasmine', 'Figma', 'Adobe XD', 'Photoshop', 'Illustrator', 'Node.js',
+]
 </script>
 
 <style scoped>
@@ -71,7 +73,7 @@ defineProps<{
   font-weight: 600;
   color: #264653;
   white-space: nowrap;
-  padding: 0.4rem 1rem;
+  padding: 0.5rem 1rem 0.4rem;
   border-radius: 9999px;
   border: 1.5px solid rgba(38, 70, 83, 0.2);
   transition: all 0.25s;

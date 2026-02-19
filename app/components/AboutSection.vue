@@ -21,14 +21,12 @@
         </p>
       </div>
     </div>
-    <SkillsMarquee :skills="skills" />
+    <TechStack />
+    <SkillsMarquee />
   </section>
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  skills: string[]
-}>()
 </script>
 
 <style scoped>

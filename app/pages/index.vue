@@ -11,7 +11,7 @@
 
     <HeroSection />
 
-    <AboutSection :skills="skills" />
+    <AboutSection />
 
     <ProjectsSection
       :freelance-projects="freelanceProjects"
@@ -47,12 +47,6 @@ function goTo(id: string) {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
   })
 }
-
-const skills = [
-  'HTML', 'CSS/SASS', 'JavaScript', 'Vue.js', 'Nuxt.js', 'jQuery', 'Tailwind CSS', 'Bootstrap', 'Blazor (C#)',
-  'PHP', 'CodeIgniter', 'Symfony', 'MySQL', 'REST APIs', 'Git', 'Linux/CLI', 'AWS', 'npm/pnpm', 'Composer',
-  'Jest/Jasmine', 'Figma', 'Adobe XD', 'Photoshop', 'Illustrator',
-]
 
 const freelanceProjects: FreelanceProject[] = [
   {
